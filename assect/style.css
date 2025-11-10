@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+header {
+    background-color:  #110c65;
+    color: rgb(224, 235, 237);
+    padding: 15px;
+    text-align: center;
+}
+
+.hero-section-container {
+    display: flex; 
+    align-items: center; 
+    gap: 40px; 
+    padding: 10px 20px; 
+    background-color: #f8f9fa;
+}
+.media{
+    flex-shrink: 0;
+}
+.image-float{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+}
+.hero-title {
+    font-size: 35px; 
+    font-weight: 800; 
+    color: #212529; 
+    line-height: 1.2; 
+    margin-bottom: 15px; 
+}
+
+.highlight-name {
+    color: #5683b2; 
+}
+
+.hero-description {
+    font-size: 15px; 
+    color: #495057; 
+    line-height: 1.6;
+}
+
+.highlight-link {
+    color: #007bff; 
+    font-weight: 600; 
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+    color: #286ca7;
+
+}
+.garis {
+    color: rgb(98, 77, 118);
+    background-color: #5498ec;
+    height: 2px;
+
+}
+nav a {
+    color: rgb(224, 227, 244);
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 0 15px;
+    text-decoration: none;
+}
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto; 
+    background-color: white;
+    min-height: 70vh;
+}
+.progress-bar-container {
+    background-color: #e9ecef; 
+    border-radius: 5px;    
+    margin-bottom: 12px;
+    height: 20px;           
+    width: 100%;            
+    overflow: hidden;       
+}
+
+
+.progress-bar {
+    height: 100%;
+    color: white;           
+    text-align: right;      
+    line-height: 30px;      
+    padding-right: 5px;
+    font-size: 0.8em;
+    transition: width 0.8s ease-out;
+}
+
+#skill-html {
+    width: 65%; 
+    background-color: #03d8ec;
+}
+
+#skill-vs {
+    width: 85%; 
+    background-color: #ff0728; 
+}
+
+#skill-c {
+    width: 55%; 
+    background-color: #e3f119;
+}
+#skill-cb {
+    width: 90%; 
+    background-color: #f6a327;
+}
+
+/* Styling Footer dan Verifikasi Link */
+footer {
+    background-color: #110c65;
+    color:rgb(224, 227, 244);
+    padding: 1px;
+    text-align: center;
+}
+footer a {
+    color: #f2f8f9; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+
+}
+
+.title{
+    text-align: center;
+    color: #154871;
+}
+.table-th{
+    background-color:  #9fc9f7;
+}
+
+.highlight-status{
+    color: #f75133;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.table-responsive {
+    overflow-x: auto; 
+}
+
+.kebutuhan{
+    color: #515a64;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+form input:not([type="radio"]):not([type="checkbox"]), 
+form select, 
+form textarea {
+    display: block; 
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        padding: 5px 0;
+    }
+    main {
+        padding: 10px;
+    }
+}
